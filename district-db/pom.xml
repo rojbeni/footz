@@ -6,7 +6,6 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>district-db</artifactId>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

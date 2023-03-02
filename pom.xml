@@ -15,8 +15,20 @@
 	</properties>
 	<modules>
 		<module>district-db</module>
+		<module>footz</module>
+		<module>footz-core</module>
+		<module>footz-dao</module>
 	</modules>
 	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.sonarsource.scanner.maven</groupId>
+					<artifactId>sonar-maven-plugin</artifactId>
+					<version>3.9.1.2184</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 		<plugins>
 			<plugin>
 				<groupId>org.owasp</groupId>
@@ -30,8 +42,19 @@
 					</execution>
 				</executions>
 			</plugin>
-
 		</plugins>
-
 	</build>
+	<profiles>
+		<profile>
+			<id>sonar</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<sonar.host.url>http://localhost:9000</sonar.host.url>
+				<sonar.login>admin</sonar.login>
+				<sonar.password>Med.09165374</sonar.password>
+			</properties>
+		</profile>
+	</profiles>
 </project>
