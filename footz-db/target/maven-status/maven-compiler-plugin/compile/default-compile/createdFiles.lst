@@ -1,0 +1,11 @@
+com/footz/entities/Match.class
+com/footz/repositories/InvitationRepository.class
+db/entities/User.class
+com/footz/entities/Location.class
+com/footz/entities/Team.class
+com/footz/entities/User.class
+com/footz/entities/LineUp.class
+com/footz/entities/Invitation.class
+db/entities/Location.class
+db/entities/Match.class
+db/entities/Team.class

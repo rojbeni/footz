@@ -1,0 +1,11 @@
+/home/administrator/workstation/footz/footz/footz-db/src/main/java/db/entities/User.java
+/home/administrator/workstation/footz/footz/footz-db/src/main/java/com/footz/entities/LineUp.java
+/home/administrator/workstation/footz/footz/footz-db/src/main/java/com/footz/entities/User.java
+/home/administrator/workstation/footz/footz/footz-db/src/main/java/db/entities/Location.java
+/home/administrator/workstation/footz/footz/footz-db/src/main/java/com/footz/entities/Invitation.java
+/home/administrator/workstation/footz/footz/footz-db/src/main/java/db/entities/Team.java
+/home/administrator/workstation/footz/footz/footz-db/src/main/java/com/footz/entities/Location.java
+/home/administrator/workstation/footz/footz/footz-db/src/main/java/com/footz/entities/Team.java
+/home/administrator/workstation/footz/footz/footz-db/src/main/java/db/entities/Match.java
+/home/administrator/workstation/footz/footz/footz-db/src/main/java/com/footz/entities/Match.java
+/home/administrator/workstation/footz/footz/footz-db/src/main/java/com/footz/repositories/InvitationRepository.java

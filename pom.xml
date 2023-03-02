@@ -14,8 +14,8 @@
 		<dependency-check-maven.version>8.1.0</dependency-check-maven.version>
 	</properties>
 	<modules>
-		<module>district-db</module>
-		<module>footz</module>
+		<module>footz-db</module>
+		<module>footz-api</module>
 		<module>footz-core</module>
 		<module>footz-dao</module>
 	</modules>
